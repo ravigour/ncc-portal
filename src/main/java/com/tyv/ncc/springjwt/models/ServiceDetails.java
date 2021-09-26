@@ -19,7 +19,7 @@ import javax.validation.constraints.Size;
 @Table(name = "Service_Detail")
 @Getter
 @Setter
-@NoArgsConstructor
+
 public class ServiceDetails {
 
 	@Id
