@@ -30,6 +30,9 @@ public class Services {
 	@NotBlank
 	private String displayName;
 	
+	@NotBlank
+	private String comment;
+	
 	public Services()
 	{
 		
@@ -66,6 +69,15 @@ public class Services {
 		this.displayName = displayName;
 	}
 
+	public String getComment() {
+		return comment;
+	}
+
+	public void setComment(String comment) {
+		this.comment = comment;
+	}
+
+	
 	
 	
 }
